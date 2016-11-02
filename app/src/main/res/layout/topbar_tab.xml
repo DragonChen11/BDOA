@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:background="@color/cyan">
+
+
+    <ImageView
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:id="@+id/back"
+        android:layout_centerVertical="true"
+        android:background="@mipmap/back_normal"/>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_centerInParent="true"
+        android:padding="1dp"
+        android:orientation="horizontal"
+        android:background="@color/btn_normal"
+        android:id="@+id/radioGroup">
+        <RadioButton
+            android:id="@+id/radio_receive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="收件箱"
+            android:textSize="20sp"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:background="@drawable/selector_button_tab"
+            android:checked="true"
+            android:button="@null">
+
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/radio_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发件箱"
+            android:singleLine="true"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:background="@drawable/selector_button_tab"
+            android:button="@null">
+        </RadioButton>
+    </RadioGroup>
+</RelativeLayout>

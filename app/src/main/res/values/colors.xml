@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- 透明 -->
+    <color name="color_transparent">#00000000</color>
+    <!-- 黑色 -->
+    <color name="color_blank">#020506</color>
+    <!-- 白色 -->
+    <color name="color_white">#ffffffff</color>
+    <!-- 红色 -->
+    <color name="color_red">#E80B0B</color>
+    <color name="text_color_nomal">#57a65a</color>
+    <color name="text_color_1">#63B4F2</color>
+    <color name="text_color_grey">#F2F2F2</color>
+    <color name="font_setting_item_text">#ff3b3b3b</color>
+    <color name="bg_main_list_item_pressed">#ffeeeeee</color>
+    <color name="transparent">#00000000</color>
+    <!-- 偏黑-->
+    <color name="halfblack">#BFBFBF</color>
+
+    <!-- timer -->
+    <color name="wheel_timebtn_nor">#54a3fa</color>
+    <color name="wheel_timebtn_pre">#CCCCCC</color>
+    <color name="blue">#ff0881bf</color>
+    <color name="white">#ffffffff</color>
+
+    <!-- button color -->
+    <color name="btn_normal">#C6C7CE</color>
+    <color name="btn_pressed">#F2F2F2</color>
+
+    <!-- horizonal line -->
+    <color name="horizonal_line">#C6C7CE</color>
+
+    <!-- submit button  color -->
+    <!-- normal blue -->
+    <!-- <color name="sub_btn_normal">#0099cc</color> -->
+    <color name="sub_btn_normal">#2E9AFE</color>
+    <!-- pressed grey -->
+    <color name="sub_btn_pressed">#ff00719b</color>
+
+    <!-- submit TextView  color -->
+    <!-- normal tansparent -->
+    <color name="sub_text_normal">#00000000</color>
+    <!-- pressed grey -->
+    <color name="sub_text_pressed">#BDBDBD</color>
+    <color name="black">#000000</color>
+    <color name="radio_button_selected_color">#ff33b5e5</color>
+    <color name="cpb_blue">#ff0099cc</color>
+    <color name="cpb_gray">#82858b</color>
+    <color name="cyan">#14b4b4</color>
+
+
+</resources>

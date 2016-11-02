@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="@color/sub_btn_normal">
+    <Button
+        android:id="@+id/topPanel_left"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_margin="10dp"
+        android:background="@mipmap/back_normal"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="星期一"
+        android:id="@+id/tv_weekend"
+        android:layout_below="@+id/topPanel_left"
+        android:layout_alignLeft="@+id/topPanel_left"
+        android:layout_alignStart="@+id/topPanel_left"
+        android:textColor="@color/abc_background_cache_hint_selector_material_light" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="2016年8月3日"
+        android:id="@+id/tv_date"
+        android:layout_below="@+id/tv_weekend"
+        android:layout_alignLeft="@+id/tv_weekend"
+        android:layout_alignStart="@+id/tv_weekend"
+        android:layout_marginTop="@dimen/abc_action_bar_content_inset_material"
+        android:textColor="@color/abc_background_cache_hint_selector_material_light" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="移动考勤"
+        android:id="@+id/topPanel_center"
+        android:layout_alignTop="@+id/topPanel_left"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textColor="@color/abc_background_cache_hint_selector_material_light" />
+
+    <Button
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:id="@+id/button3"
+        android:background="@android:drawable/ic_menu_manage"
+        android:layout_marginRight="10dp"
+        android:layout_alignTop="@+id/topPanel_center"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp" />
+
+</RelativeLayout>

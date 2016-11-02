@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sky.kay.bdoa">
+
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 日志 -->
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <!-- 创建删除文件权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <application
+        android:name=".model.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="l6d96PfZvmqphGwGCzF0pGxhNdLfI5tQ" />
+
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".MailActivity"
+            android:label="@string/title_activity_mail"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ReceiveDetailActivity"
+            android:label="@string/title_activity_receive_detail"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".PersonActivity" />
+        <activity android:name=".RegisterActivity" />
+
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" />
+
+        <activity android:name=".ImageHeadActivity" />
+        <activity android:name=".SignActivity" />
+        <activity android:name=".DiaryActivity" />
+        <activity android:name=".DiarySendActivity" />
+        <activity android:name=".FlowActivity" />
+        <activity android:name=".FlowItemActivity" />
+        <activity android:name=".NoticeActivity" />
+        <activity android:name=".NoticeDetailActivity" />
+        <activity
+            android:name=".ExamineActivity"
+            android:label="@string/title_activity_examine"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
